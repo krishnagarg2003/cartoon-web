@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.episode {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+.episode img {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+
+.episode-details {
+    flex: 1;
+}
+
+h3 {
+    font-size: 18px;
+    margin: 0;
+}
+
+p {
+    font-size: 14px;
+    color: #777;
+}
+.moe-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.moe-button:hover {
+    background-color: #2980b9;
+}

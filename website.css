@@ -1,0 +1,360 @@
+body, h1, ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+h1{
+  word-spacing: 20px;
+}
+header {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+.search-container {
+  display: flex;
+  align-items: center;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#search-input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+}
+
+#search-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+#search-button:hover {
+  background-color: #0056b3;
+}
+main .srcbtn {
+    text-align: center;
+    background-color:whitesmoke;
+}
+* {box-sizing:border-box}
+.slideshow-container {
+  position: relative;
+  margin: auto;
+}
+.mySlides {
+  display: none;
+  width: 100%;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+  background-color: #717171;
+}
+.fade {
+  animation-name: fade;
+  animation-duration: 3s;
+}
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+img{
+  height:"190px";
+  width:"19%";
+}
+.img image{
+text-align: center;
+margin: 10px;
+}
+.social-media1 {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+}
+.social-media {
+  margin-top: 10px;
+}
+
+.social-media a {
+  text-decoration: none;
+  color: #fff;
+  margin: 0 10px;
+}
+.social-media img {
+  width: 32px;
+  height: 32px;
+  vertical-align: middle;
+  margin: auto;
+  width: auto;
+}
+.charlist1 {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  font-size: 30px;
+}
+
+.column {
+  flex: 1;
+  padding: 0 20px;
+}
+
+.charlist {
+  list-style: none;
+  padding: 0;
+  
+}
+
+.ftrchr {
+  margin: 5px 0;
+}
+a{
+  text-decoration: none;
+  color: gray;
+}
+a:hover{
+  color: #3498db;
+}
+.episode-details h3 a:hover{
+  color: #3498db;
+}
+.photo
+{
+  height: 300px;
+  width: 500px;
+  text-align: center;
+  padding: 25px;
+  margin-bottom: -30px;
+}
+.btn h4{
+  text-align: center;
+}
+button{
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.crtname {
+  text-align: center;
+  background-color: greenyellow;
+  animation-name: kri;
+  animation-duration: 10s;
+  border: 5px solid black;
+}
+@keyframes kri{
+  0%{
+    background-color: aqua;
+    color: blue;
+  }
+  25%{
+    background-color: antiquewhite;
+    color: green;
+  }
+  50%{
+    background-color: pink;
+    color: red;
+  }
+  75%{
+    background-color: rgb(100,125,50);
+    color: gold;
+  }
+  100%{
+    background-color: rgb(200,125,50);
+    color: teal;
+  }
+}
+.paragraph{
+text-align: center;
+font-size: larger;
+}
+p{
+  text-align:justify;
+}
+h2{
+  text-align: center;
+}
+
+.container {
+  text-align: center;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+/* CSS for styling the image */
+.image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* CSS for styling the name and information */
+.name {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0;
+  background-color: black;
+  color: whitesmoke;
+}
+
+.information {
+  font-size: 16px;
+  margin: 5px 0;
+}
+.episode {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+
+.episode img {
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+}
+
+.episode-details {
+  flex: 1;
+}
+.episode1{
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 30px;
+  margin: 0;
+}
+
+p {
+  font-size: 14px;
+  color: #777;
+}
+.moe-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  justify-content: center;
+}
+.moe-button:hover {
+  background-color: green;
+}
+.slider2 {
+  width: 50%;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.slide2 {
+  width: 100%;
+  display: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+.game-container {
+  display: grid;
+  column-gap: 10px;
+  grid-template-columns: auto auto auto auto auto auto ;
+  background-color: #ffffff;
+  padding: 2px;
+  color: rgb(103, 255, 16);
+}
+
+.game-item {
+  background-color:rgb(255, 255, 255);
+  border: 1px solid rgba(255, 255, 255);
+  padding: 2px;
+  font-size: 20px;
+  text-align: center;
+ 
+}
+.game-item button{
+    height: 80px; 
+    width: 90px;
+    border-radius: 10px;
+    font-size: 15px;
+margin-top: 50px;
+}
